@@ -19,13 +19,23 @@ require("lazy").setup({
     -- add LazyVim and import its plugins
 
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
+    -- {
+    --   "LazyVim/LazyVim",
+    --   opts = {
+    --     colorscheme = "rose-pine",
+    --   },
+    -- },
+    -- { "rose-pine/neovim", name = "rose-pine", priority = 1000 },
+    {
+      "olimorris/onedarkpro.nvim",
+      priority = 1000,
+    },
     {
       "LazyVim/LazyVim",
       opts = {
-        colorscheme = "rose-pine",
+        colorscheme = "onedark",
       },
     },
-    { "rose-pine/neovim", name = "rose-pine", priority = 1000 },
     { import = "lazyvim.plugins.extras.lang.prisma" },
     { import = "lazyvim.plugins.extras.lang.typescript" },
     { import = "lazyvim.plugins.extras.lang.tailwind" },
