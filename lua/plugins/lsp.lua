@@ -9,6 +9,10 @@ return {
           autostart = false,
           enabled = false,
         },
+        -- Disable csharp_ls to only use Roslyn
+        csharp_ls = {
+          enabled = false,
+        },
         -- Go language server settings
         gopls = {
           settings = {
