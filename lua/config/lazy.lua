@@ -25,7 +25,7 @@ require("lazy").setup({
         colorscheme = "rose-pine",
       },
     },
-    { "rose-pine/neovim", name = "rose-pine", priority = 1000 },
+    { "rose-pine/neovim", name = "rose-pine", priority = 500 },
     { import = "lazyvim.plugins.extras.lang.prisma" },
     { import = "lazyvim.plugins.extras.lang.typescript" },
     { import = "lazyvim.plugins.extras.lang.tailwind" },
