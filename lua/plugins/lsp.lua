@@ -4,11 +4,6 @@ return {
     opts = {
       inlay_hints = { enabled = false },
       servers = {
-        -- Disable eslint autostart
-        eslint = {
-          autostart = false,
-          enabled = false,
-        },
         -- Disable csharp_ls to only use Roslyn
         csharp_ls = {
           enabled = false,
